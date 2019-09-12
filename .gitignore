@@ -24,3 +24,6 @@ TODO
 
 experiments
 .idea
+
+**/*.swp
+**/*.swo
