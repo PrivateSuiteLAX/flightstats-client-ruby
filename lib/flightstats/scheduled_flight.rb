@@ -5,6 +5,8 @@ module FlightStats
                   :departure_airport_fs_code,
                   :arrival_airport_fs_code,
                   :stops,
+                  :departure_airport,
+                  :arrival_airport,
                   :departure_terminal,
                   :arrival_terminal,
                   :departure_time,
