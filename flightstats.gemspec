@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
 
   s.files            = Dir['lib/**/*']
 
-  s.has_rdoc         = true
-  s.extra_rdoc_files = %w(README.md)
-  s.rdoc_options     = %w(--main README.md)
+  # s.has_rdoc         = true
+  # s.extra_rdoc_files = %w(README.md)
+  # s.rdoc_options     = %w(--main README.md)
 
   s.author           = 'DidItClear'
   s.email            = 'didyourupgradeclear@gmail.com'
