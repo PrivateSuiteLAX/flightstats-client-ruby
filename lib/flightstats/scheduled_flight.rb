@@ -1,6 +1,6 @@
 module FlightStats
   class ScheduledFlight < Resource
-    attr_accessor :carrier_fs_code,
+    attr_accessor :carrier,
                   :flight_number,
                   :departure_airport_fs_code,
                   :arrival_airport_fs_code,
@@ -19,7 +19,7 @@ module FlightStats
                   :service_classes,
                   :traffic_restrictions,
                   :reference_code,
-                  :operator
+                  :operator,
 
     @@base_path = "/flex/schedules/rest/v1/json"
 
