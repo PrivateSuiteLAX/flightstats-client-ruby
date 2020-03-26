@@ -19,7 +19,7 @@ module FlightStats
                   :service_classes,
                   :traffic_restrictions,
                   :reference_code,
-                  :operator,
+                  :operator
 
     @@base_path = "/flex/schedules/rest/v1/json"
 
